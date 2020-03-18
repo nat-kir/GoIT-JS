@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#categories {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.item-name {
+  margin: 20px;
+}
+
+#ingredients {
+  margin-bottom: 30px;
+}
+#gallery {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#counter {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#counter button {
+  padding: 10px;
+  background-color: brown;
+  color: cornsilk;
+}
+#counter span {
+  margin: 0 20px;
+}
+
+#name-input {
+  display: block;
+  width: 150px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  /* align-content: center; */
+}
+.welcome-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#validation-input {
+  display: block;
+  border: 3px solid #bdbdbd;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  /* width: 150px; */
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+#font-size-control {
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+#text {
+    display: block;
+  color: darkolivegreen;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
